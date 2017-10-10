@@ -1,9 +1,7 @@
 <?php
 
-/**
- * A calculator
- */
-class Calculator {
+class Calculator
+{
 
 	//Declare the internal variable
 	var $storedValue;
@@ -24,6 +22,7 @@ class Calculator {
 	}
 
 	// Constructor function
+	//
 	function Calculator()
 	{
 		$this->storedValue = 0;
